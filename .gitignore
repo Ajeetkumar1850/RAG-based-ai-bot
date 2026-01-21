@@ -1,3 +1,6 @@
+# Markdown files
+*.md
+
 # Dependencies
 node_modules/
 npm-debug.log*
