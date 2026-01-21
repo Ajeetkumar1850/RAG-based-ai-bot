@@ -10,15 +10,15 @@ function App() {
             🎓 College AI Assistant
           </h1>
           <p className="text-gray-600">
-            Get accurate information about your college from official documents
+            RAG-powered chatbot - Answers from your documents only
           </p>
         </header>
         
         <ChatInterface />
         
         <footer className="mt-12 text-center text-gray-500 text-sm">
-          <p>Answers are based only on uploaded college documents</p>
-          <p className="mt-1">Powered by RAG Architecture</p>
+          <p>Powered by RAG (Retrieval-Augmented Generation)</p>
+          <p className="mt-1">Using Google Gemini AI (Free Tier)</p>
         </footer>
       </div>
     </div>
